@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="393dp"
+        android:layout_height="150dp"
+        android:layout_margin="5sp"
+        android:background="@drawable/recieve_bubble"
+        android:shadowColor="@color/textShadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Medium Text"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:layout_weight="1.10" />
+
+</LinearLayout>
